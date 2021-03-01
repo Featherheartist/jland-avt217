@@ -26,6 +26,12 @@
     text-align: center;
   }
 
+  a:visited {
+    color: DarkSeaGreen;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+
+  }
   a:hover {
     color: turquoise;
     font-family: 'Amatic SC', cursive;

@@ -3,29 +3,39 @@
     color: white;
     font-family: 'Amatic SC', cursive;
     text-align: center;
+    font-size: 500;
     margin: 50px;
   }
 
   h1 {
     color: white;
-    text-align:center;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-style: bold
   }
 
   h2 {
     color: white;
-    text-align:center;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-style: bold
   }
 
   a {
-    color:
+    color: honeydew;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
     font-style: italic
   }
 
   a:hover {
-    color:
+    color: turquoise;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
     font-style: italic
   }
   p {
     color: white;
+    font-size: 500;
   }
 }

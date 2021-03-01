@@ -34,7 +34,7 @@ a {
 }
 
 a:visited {
-  color: #b2eaff;
+  color: #CAE7DF;
   font-family: Century Gothic,sans-serif;
   text-align: center;
 
@@ -42,9 +42,9 @@ a:visited {
 
 a:hover {
   color: #b2eaff;
-  font-family: Century Gothic,sans-serif;
+  font-family: Century Gothic, sans-serif;
   text-align: center;
-  font-style: italic
+  font-style: italic;
 
 }
 .column {

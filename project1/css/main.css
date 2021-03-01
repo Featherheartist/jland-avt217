@@ -3,7 +3,7 @@
     color: white;
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    font-size: 500;
+    font-size: 200%;
     margin: 50px;
   }
 
@@ -11,14 +11,13 @@
     color: white;
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    font-style: bold
+    font-size: 200%;
   }
 
   h2 {
     color: white;
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    font-style: bold
   }
 
   a {
@@ -36,6 +35,5 @@
   }
   p {
     color: white;
-    font-size: 500;
   }
 }

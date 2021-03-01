@@ -18,6 +18,7 @@
     color: white;
     font-family: 'Amatic SC', cursive;
     text-align: center;
+    font-size: 200%;
   }
 
   a {
@@ -32,11 +33,13 @@
     text-align: center;
 
   }
+
   a:hover {
     color: turquoise;
     font-family: 'Amatic SC', cursive;
     text-align: center;
     font-style: italic
+
   }
   p {
     color: white;

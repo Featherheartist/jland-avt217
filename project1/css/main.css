@@ -21,13 +21,13 @@
   }
 
   a {
-    color: honeydew;
+    color: DarkTurquoise;
     font-family: 'Amatic SC', cursive;
     text-align: center;
   }
 
   a:visited {
-    color: DarkTurquoise;
+    color: Honeydew;
     font-family: 'Amatic SC', cursive;
     text-align: center;
 
@@ -40,5 +40,6 @@
   }
   p {
     color: white;
+    font-size: 200%;
   }
 }

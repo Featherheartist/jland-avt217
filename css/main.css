@@ -1,0 +1,65 @@
+body {
+  background-color: #CAE7DF;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 200%;
+  margin: 50px;
+}
+
+p {
+  font-family: Century Gothic,sans-serif;
+  color: white;
+  font-size: 50%;
+}
+
+h1 {
+  color: #F4ABAA;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+  font-size: 150%;
+}
+
+h2 {
+  color: honeydew;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+  font-size: 100%;
+}
+
+a {
+  color: Honeydew;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+}
+
+a:visited {
+  color: #b2eaff;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+
+}
+
+a:hover {
+  color: #b2eaff;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+  font-style: italic
+
+}
+.column {
+  float: left;
+  width: 50%;
+  outline-style: dotted;
+}
+
+.row:after {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 4px;
+  grid-auto-flow: column;
+}
+
+}

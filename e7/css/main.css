@@ -1,0 +1,126 @@
+h6 {
+  color: white;
+  font-family: korolev, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+  font-size: 50%;
+}
+
+body {
+  background-color: #EEE0E0;
+  font-size: 200%;
+  margin: 50px;
+}
+
+p, ul li {
+  color: #515c64;
+  font-family: korolev, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 75%;
+}
+
+h1 {
+  color: #1F183B;
+  font-family: korolev, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  font-size: 200%;
+}
+
+h2 {
+  color: #8FC0A4;
+  font-family: korolev, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 150%;
+}
+
+h3 {
+  color: #528F82;
+  font-family: korolev, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+  font-size: 100%;
+}
+
+h4 {
+  color: #528F82;
+  font-family: korolev, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+  font-size: 75%;
+}
+
+.size {
+  font-size: 50%;
+}
+
+.weight {
+  font-weight: 1;
+}
+
+.form {
+  font-family: korolev-rounded, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.struct {
+  font-family: korolev-compressed, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.text {
+  font-family: korolev-military-stencil, sans-serif;
+}
+
+.color {
+  color: #39eb62;
+}
+
+.direct
+{
+	filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=2);  /* IE6,IE7 */
+	ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+	-moz-transform: rotate(-180deg);  /* FF3.5+ */
+	-o-transform: rotate(-180deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+	position: absolute;
+}
+
+.other {
+  font-family: korolev-rounded, sans-serif;
+  font-weight: 150;
+  font-style: oblique;
+}
+
+/*
+    @font-face {
+    font-family: 'equestriaregular';
+    src: url('equestria-webfont.woff2') format('woff2'),
+         url('equestria-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.mlp {
+   font-family: 'equestriaregular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+      Sigh... I WAS gonna do this joke where I made the words "elements of harmony"
+      into the font for the logo of my little pony because that's where the phrase
+      comes from. Did all this research how to import a custom font and it's just
+      not working and I'm tired so frankly I'll do this some other time.
+
+      Also I was gonna make it to where it's only the words "elements of harmony"
+      inside of the paragraph seamlessly so that's some extra tricky stuff.
+*/

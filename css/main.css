@@ -1,5 +1,5 @@
 body {
-  background-color: #CAE7DF;
+  background-color: #cae7df;
   color: white;
   font-family: 'Amatic SC', cursive;
   text-align: center;
@@ -34,14 +34,14 @@ a {
 }
 
 a:visited {
-  color: #CAE7DF;
+  color: #dcefea;
   font-family: Century Gothic,sans-serif;
   text-align: center;
 
 }
 
 a:hover {
-  color: #b2eaff;
+  color: #95cfbf;
   font-family: Century Gothic, sans-serif;
   text-align: center;
   font-style: italic;

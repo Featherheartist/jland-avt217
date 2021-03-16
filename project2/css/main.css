@@ -1,0 +1,56 @@
+/*body {
+  background-color: #cae7df;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 200%;
+  margin: 50px;
+}
+
+p {
+  font-family: Century Gothic,sans-serif;
+  color: white;
+  font-size: 50%;
+}
+
+h1 {
+  color: #F4ABAA;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+  font-size: 150%;
+}
+
+h2 {
+  color: honeydew;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+  font-size: 100%;
+}
+
+a {
+  color: Honeydew;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+}
+
+a:visited {
+  color: #dcefea;
+  font-family: Century Gothic,sans-serif;
+  text-align: center;
+
+}
+
+a:hover {
+  color: #95cfbf;
+  font-family: Century Gothic, sans-serif;
+  text-align: center;
+  font-style: italic;
+
+}
+
+a:link { color: blue; }          /* Unvisited links */
+a:visited { color: purple; }     /* Visited links */
+a:hover { background: yellow; }  /* Hovered links */
+a:active { color: red; }         /* Active links */
+
+p:active { background: #eee; }   /* Active paragraphs */

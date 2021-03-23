@@ -2,7 +2,6 @@ body {
   background-color: Gainsboro;
 }
 
-
 .pg1sh1 {
   background-color: #c0ffb6;
   width: 125px;
@@ -129,40 +128,90 @@ body {
 
 
 
-.pg5sh1 {
-  background-color: #c0ffb6;
-  width: 125px;
-  height: 125px;
+.pac {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
   float: left;
-  opacity: 75%;
-  margin: -15px;
-  border: 5px dashed white;
-  transform: rotate(45deg);
-  border-radius: 10%;
-}
-.pg5sh2 {
-  background-color: #b2eaff;
-  width: 125px;
-  height: 125px;
-  float: left;
-  opacity: 75%;
-  margin: -15px;
-  border: 5px dashed white;
-  transform: rotate(45deg);
-  border-radius: 10%;
-}
-.pg5sh3 {
-  background-color: #FAFFB0;
-  width: 125px;
-  height: 125px;
-  float: left;
-  opacity: 75%;
-  margin: -15px;
-  border: 5px dashed white;
-  transform: rotate(45deg);
-  border-radius: 10%;
-}
 
+}
+.dot {
+  background-color: #f2d648;
+  width: 20px;
+  height: 20px;
+  float: left;
+  opacity: 100%;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+.orb {
+  background-color: #faffb0;
+  width: 30px;
+  height: 30px;
+  float: left;
+  opacity: 100%;
+  border-radius: 50%;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 25px;
+}
+.line {
+  height: 1px;
+  background-color: transparent;
+  border: 5px double navy;
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+}
+.ghost {
+  float:left;
+  width: 100px;
+  background: cyan;
+  height: 110px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.ghost2 {
+  float:left;
+  width: 100px;
+  background: lightpink;
+  height: 110px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.ghost3 {
+  float:left;
+  width: 100px;
+  background: red;
+  height: 110px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.ghost4 {
+  float:left;
+  width: 100px;
+  background: coral;
+  height: 110px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
 .heart {
      float: left;
      position: relative;

@@ -93,37 +93,38 @@ body {
 
 
 .pg4sh1 {
-  background-color: #ffd6d6;
-  width: 125px;
-  height: 125px;
+  display: block;
+  width: 101px;
+  height: 144px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  background-color: #b2eaff;
   float: left;
-  opacity: 75%;
-  margin: -15px;
-  border: 5px dashed white;
-  transform: rotate(45deg);
-  border-radius: 10%;
+  opacity: 60%;
+  margin: -20px;
+  border: 7px dotted white;
 }
 .pg4sh2 {
-  background-color: #e1bfff;
-  width: 125px;
-  height: 125px;
+  display: block;
+  width: 101px;
+  height: 144px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  background-color: #faffb0;
   float: left;
-  opacity: 75%;
-  margin: -15px;
-  border: 5px dashed white;
-  transform: rotate(45deg);
-  border-radius: 10%;
+  opacity: 60%;
+  margin: -20px;
+  border: 7px dotted white;
+  transform: rotate(180deg);
 }
 .pg4sh3 {
-  background-color: #c0ffb6;
-  width: 125px;
-  height: 125px;
+  display: block;
+  width: 101px;
+  height: 144px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  background-color:	#c0ffb6;
   float: left;
-  opacity: 75%;
-  margin: -15px;
-  border: 5px dashed white;
-  transform: rotate(45deg);
-  border-radius: 10%;
+  opacity: 60%;
+  margin: -20px;
+  border: 7px dotted white;
 }
 
 

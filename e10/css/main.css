@@ -1,0 +1,119 @@
+body {
+  background-color: #b2eaff;
+}
+
+.board {
+  width: 800px;
+  display: flow-root;
+  margin: 100px auto;
+}
+
+.black {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  float: left;
+}
+
+
+.columns{
+  width: 800px;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  display: flow-root;
+}
+
+.head {
+  width: 100%;
+  height: 100px;
+  background-color: MediumAquamarine;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.subhead {
+  width: 100%;
+  height: 45px;
+  background-color: LavenderBlush;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.box1 {
+  width: 250px;
+  height: 500px;
+  margin: 0px 25px 0px 0px;
+  background-color: LightBlue;
+  float: left;
+}
+
+.box2 {
+  width: 250px;
+  height: 500px;
+  margin: 0px 25px 20px 0px;
+  background-color: LightBlue;
+  float: left;
+}
+
+.box3 {
+  width: 250px;
+  height: 500px;
+  margin: 0px 0px 20px 0px;
+  background-color: LightBlue;
+  float: right;
+}
+
+.footsie {
+  width: 100%;
+  height: 50px;
+  background-color: Honeydew;
+  float: left;
+  margin-bottom: 50px;
+}
+
+
+.blog {
+  width: 800px;
+  display: flow-root;
+  margin: 50px auto;
+}
+
+.bhead {
+  width: 100%;
+  height: 100px;
+  margin: 0 0 20px 0;
+  background-color: LightPink;
+  float: left;
+}
+
+.bcontent {
+  width: 500px;
+  height: 400px;
+  background-color: LightGreen;
+  margin: 0 0 20px 0;
+  float: left;
+}
+
+.bright {
+  width: 100px;
+  height: 100px;
+  background-color: Turquoise;
+  margin: 0 0 0 20px;
+  float: left;
+}
+
+.bfoot {
+  width: 500px;
+  height: 50px;
+  background-color: LightBlue;
+  margin: 0 0 50px 0;
+  float: left;
+}

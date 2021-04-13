@@ -7,6 +7,24 @@ body {
   margin: 50px;
 }
 
+header {
+  width: 75%;
+  margin: 10px auto;
+}
+
+main {
+  width: 100%;
+  margin: 25px auto;
+  display: flow-root;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  background-color: #F4ABAA;
+  outline-style: dotted;
+}
+
 p {
   font-family: Century Gothic,sans-serif;
   color: white;
@@ -17,7 +35,7 @@ h1 {
   color: #F4ABAA;
   font-family: Century Gothic,sans-serif;
   text-align: center;
-  font-size: 150%;
+  font-size: 175%;
 }
 
 h2 {
@@ -25,6 +43,16 @@ h2 {
   font-family: Century Gothic,sans-serif;
   text-align: center;
   font-size: 100%;
+  margin-top: 15px;
+}
+
+li {
+  font-family: Century Gothic,sans-serif;
+  color: white;
+  font-size: 50%;
+  list-style-type: none;
+  margin-right: 50px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -47,19 +75,16 @@ a:hover {
   font-style: italic;
 
 }
-.column {
-  float: left;
-  width: 50%;
-  outline-style: dotted;
-}
 
-.row:after {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-
-  gap: 4px;
-  grid-auto-flow: column;
-}
-
-}
+@media screen and (max-width: 745px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 100%;
+  }
+  p {
+    width: 100%;
+  }
+ }

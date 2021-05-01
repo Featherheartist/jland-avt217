@@ -1,0 +1,159 @@
+body {
+  background-color: lightcyan;
+}
+
+h1 {
+  color: lightgreen;
+  font-family: Century Gothic,sans-serif;
+  font-size: 175%;
+}
+
+main {
+  position: fixed;
+  left: 10%;
+  top: 10%;
+}
+
+.face {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 225px;
+  left: 200px;
+}
+.neck {
+  width: 30px;
+  height: 200px;
+  background: lightgreen;
+  border-radius: 50px / 100px;
+  position: absolute;
+  top: 250px;
+  left: 270px;
+}
+
+.eyestalkl {
+  width: 15px;
+  height: 150px;
+  background: lightgreen;
+  border-radius: 50px / 100px;
+  position: absolute;
+  top: 160px;
+  left: 230px;
+}
+
+.eyestalkr {
+  width: 15px;
+  height: 150px;
+  background: lightgreen;
+  border-radius: 50px / 100px;
+  position: absolute;
+  top: 160px;
+  left: 265px;
+}
+
+.eyel {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  border: 3px solid silver;
+  top: 140px;
+  left: 202px;
+}
+
+.eyer {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  border: 3px solid silver;
+  top: 140px;
+  left: 240px;
+}
+
+.pupill {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 155px;
+  left: 210px;
+}
+
+.pupilr {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 155px;
+  left: 250px;
+}
+
+.smile {
+  width: 50px;
+  height: 50px;
+  background-color: lightgreen;
+  border-radius: 100%;
+  position: absolute;
+  border-bottom:solid 5px black;
+  top: 230px;
+  left: 215px;
+}
+
+.goo {
+  width: 400px;
+  height: 70px;
+  background-color: lightgreen;
+  border-radius: 100px 100px 10px 10px;
+  position: absolute;
+  border-top:solid 5px lightgreen;
+  top: 400px;
+  left: 250px;
+}
+
+.bottoms {
+  width: 325px;
+  height: 50px;
+  background-color: burlywood;
+  border-radius: 100px 100px 50px 50px;
+  position: absolute;
+  border-top:solid 5px burlywood;
+  top: 370px;
+  left: 300px;
+}
+
+.shell {
+  width: 325px;
+  height: 300px;
+  position: absolute;
+  background-color: burlywood;
+  border-radius: 100%;
+  top: 125px;
+  left: 300px;
+}
+
+.shellout {
+  width: 235px;
+  height: 210px;
+  background-color: bisque;
+  border-radius: 50%;
+  position: absolute;
+  top: 160px;
+  left: 345px;
+}
+
+.shellin {
+  width: 135px;
+  height: 110px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  position: absolute;
+  top: 210px;
+  left: 390px;
+}
